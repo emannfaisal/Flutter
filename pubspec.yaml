@@ -31,6 +31,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  audioplayers: ^0.20.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -53,7 +54,15 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/pic_profie.jpg
+    - assets/
+    - assets/note1.wav
+    - assets/note2.wav
+    - assets/note3.wav
+    - assets/note4.wav
+    - assets/note5.wav
+    - assets/note6.wav
+    - assets/note7.wav
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

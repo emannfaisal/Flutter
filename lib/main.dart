@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'main2.dart';
 import 'main4.dart';
 import 'main3.dart';
+import 'main5.dart';
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: lab5(),   // 👈 Change this to Task2() when needed
+      home: Lab6App(),   // 👈 Change this to Task2() when needed
     );
   }
 }
